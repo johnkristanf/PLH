@@ -27,7 +27,7 @@ export function MonthlySalesChart() {
     <Chart
       chartType="LineChart"
       width="100%"
-      height="400px"
+      height="300px"
       data={data}
       options={options}
     />
@@ -39,7 +39,7 @@ export function YealySalesChart() {
       <Chart
         chartType="LineChart"
         width="100%"
-        height="400px"
+        height="300px"
         data={data}
         options={options}
       />
