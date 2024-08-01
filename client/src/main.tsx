@@ -4,6 +4,8 @@ import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import './index.css'
 
 import DashBoardPage from './pages/dashboard';
+import RoomsPage from './pages/rooms';
+import CheckInPage from './pages/checkInn';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,16 @@ const router = createBrowserRouter([
   {
     path: "/dashboard",
     element: <DashBoardPage />,
+  },
+
+  {
+    path: "/rooms",
+    element: <RoomsPage />,
+  },
+
+  {
+    path: "/check-inn",
+    element: <CheckInPage />,
   },
 ]);
 
