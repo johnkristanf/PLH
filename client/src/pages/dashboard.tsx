@@ -8,12 +8,12 @@ function DashBoardPage(){
             <SideBar />
 
             <div className="w-[89%] h-full flex justify-end pt-5">
-                <div className="flex flex-col gap-5 w-[60%] h-full">
+                <div className="flex flex-col gap-5 w-[55%] h-full">
                     <MonthlySalesChart />
                     <YealySalesChart />
                 </div>
 
-                <div className="rounded-md w-[30%] h-full flex flex-col gap-5 bg-black p-5  mr-5">
+                <div className="rounded-md w-[35%] h-full flex flex-col gap-5 p-5  mr-5">
                     <SalesTodayTable />
                     <EmployeeList />
                 </div>
